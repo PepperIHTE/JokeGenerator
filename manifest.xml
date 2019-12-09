@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="jokegenerator-f01f30" version="0.0.0">
+ <names>
+  <name lang="en_US">JokeGenerator</name>
+  <name lang="fi_FI">Vitsi</name>
+ </names>
+ <descriptions>
+  <description lang="en_US">Tells a joke when asked</description>
+ </descriptions>
+ <supportedLanguages>
+  <language>en_US</language>
+  <language>fi_FI</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+  <language>fi_FI</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <names>
+    <name lang="en_US">JokeGenerator</name>
+   </names>
+   <triggerSentences>
+    <sentence lang="en_US">Tell me a joke</sentence>
+    <sentence lang="en_US">Say something funny</sentence>
+    <sentence lang="en_US">tell a joke</sentence>
+    <sentence lang="en_US">joke</sentence>
+    <sentence lang="fi_FI">Kerro vitsi</sentence>
+   </triggerSentences>
+   <permissions/>
+  </behaviorContent>
+  <dialogContent topicName="jokedialog" typeVersion="1.0">
+   <topic language="en_US" path="jokedialog/jokedialog_enu.top"/>
+   <topic language="fi_FI" path="jokedialog/jokedialog_fif.top"/>
+  </dialogContent>
+ </contents>
+</package>

@@ -1,0 +1,42 @@
+topic: ~jokedialog()
+language: enu
+
+concept:(pause) \pau=1000\
+
+u:(e:onStart) ^gotoRandom(joke)
+
+proposal: %next ^start(animations/Stand/Emotions/Positive/Laugh_3) ^wait(animations/Stand/Emotions/Positive/Laugh_3) $onStopped=1
+
+proposal: %joke What is the best thing about Switzerland? ~pause I don't know, but the flag is a big plus! ^gotoReactivate(next)
+    
+proposal: %joke Did you hear about the claustrophobic astronaut? ~pause He just needed a little space ^gotoReactivate(next)
+    
+proposal: %joke Why don't scientiests trust atoms? ~pause They make up everything ^gotoReactivate(next)
+    
+proposal: %joke How do you drown a hipster? ~pause Throw them in a mainstream ^gotoReactivate(next)
+    
+proposal: %joke Can a kangaroo jump higher than a house? ~pause Of course, a house doesn't jump at all ^gotoReactivate(next)
+    
+proposal: %joke What is the difference between a snowman and a snowwoman? ~pause Snowballs ^gotoReactivate(next)
+    
+proposal: %joke What did number 0 say to a number 8? ~pause Nice belt ^gotoReactivate(next)
+
+proposal: %joke Why did the stadium get hot after the game? ~pause All the fans left ^gotoReactivate(next)
+
+proposal: %joke What did a buffalo say to his son, when he left for college? ~pause ^gotoReactivate(next)
+
+proposal: %joke Why did Johnny throw a clock out of the window? ~pause Because he wanted to see time fly ^gotoReactivate(next)
+    
+proposal: %joke What do lawyers wear to court? ~pause Lawsuits ^gotoReactivate(next)
+
+proposal: %joke Why is Peter Pan always flying? ~pause He never never lands ^gotoReactivate(next)
+
+proposal: %joke Why did a picture go to jail? ~pause Because he was framed ^gotoReactivate(next)
+
+proposal: %joke What do you give to a sick lemon? ~pause Lemon aid ^gotoReactivate(next)
+
+proposal: %joke Why couldn't the bicycle stand up by itself? ~pause It was two-tired ^gotoReactivate(next)
+    
+proposal: %joke What did number 0 say to a number 8? ~pause Nice belt ^gotoReactivate(next)
+
+proposal: %joke Schrodinger’s cat walks into a bar. ~pause And doesn’t. ^gotoReactivate(next)
